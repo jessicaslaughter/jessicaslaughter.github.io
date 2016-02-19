@@ -9,8 +9,8 @@ nav {
 nav.pinned {
     position: fixed;
     top: 0;
-    background-color: #f5f5f5;
-    transition: 0.2s ease background-color;
+    background-color: #B2DBD7;
+    transition: 0.3s ease background-color;
     -webkit-transition: 0.2s ease background-color;
 }
 
@@ -21,6 +21,9 @@ nav.pinned {
 .navbar {
     text-align: center;
 }
+
+/* Header
+------------------------------------------------------------ */
 
 .hero {
     height: 100%;
@@ -84,6 +87,101 @@ nav.pinned {
 
 .content a, b {
     font-weight: bold;
+}
+
+/* About
+------------------------------------------------------------ */
+
+#about-me {
+    text-align: center;
+}
+/* Skills
+------------------------------------------------------------ */
+#skills {
+    background: #F2FACB;
+}
+
+.skill {
+    list-style: none;
+    width: 44%;
+    margin: 15px auto 0;
+    padding: 30px 0;
+    position: relative;
+    line-height: 20px;
+    display: inline-table;
+}
+
+.skill h2 {
+    text-align: center;
+}
+
+.left-column {
+    margin-right: 10%;
+}
+
+.skill li {
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    height: 20px;
+    padding: 0;
+}
+
+.bar {
+    height: 20px;
+    position: absolute;
+}
+
+.skill li h4 {
+    position: relative;
+    top: -30px;
+    text-align: left;
+}
+
+.c {
+    width: 60%;
+    background-color: #F8E7E1;
+}
+
+.html-css {
+    width: 65%;
+    background-color: #C7DFE7;
+}
+
+.javascript {
+    width: 15%;
+    background-color: #EAB5A3;
+}
+
+.java {
+    width: 10%;
+    background-color: #F8E7E1;
+}
+
+.photoshop {
+    width: 15%;
+    background-color: #F8E7E1;
+}
+
+.illustrator {
+    width: 30%;
+    background-color: #EAB5A3;
+}
+
+.web-design {
+    width: 40%;
+    background-color: #F8E7E1;
+}
+
+.wordpress {
+    width: 40%;
+    background-color: #C7DFE7;
+}
+
+/* Projects
+------------------------------------------------------------ */
+
+#projects {
+    text-align: center;
 }
 
 .hvr-grow {

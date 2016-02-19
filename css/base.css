@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 	color: #222222;
 	line-height: 1.5; 
+    text-align: center;
 }
 
 h1 {
@@ -16,15 +17,15 @@ h2 {
 }
 
 h3 {
-	font-size: 2rem; 
-}
-
-h4 {
 	font-size: 1.5rem; 
 }
 
+h4 {
+	font-size: 1.2rem; 
+}
+
 h5 {
-	font-size: 1.25rem; 
+	font-size: 1.1rem; 
 }
 
 h6 {
@@ -46,7 +47,7 @@ a, a:hover {
 
 ul {
 	margin: 2rem 0;
-	list-style: circle;
+	list-style: none;
 	padding-left: 2rem; 
 }
 
@@ -63,7 +64,7 @@ p {
 .content {
 	max-width: 60rem;
 	margin: 0 auto;
-	width: 100%; 
+	width: 60%; 
 }
 
 .hero {
@@ -77,14 +78,16 @@ section { padding: 6rem 0 3rem;
 
 footer {
 	margin-top: 4rem;
-	padding: 5rem;
-	background-color: #222;
+	padding: 3rem;
+	background-color: #222222;
 	color: white;
 	text-align: center; 
 }
 
 footer p {
-	margin: 0; 
+	margin: 0;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
 }
 
 nav {
@@ -114,19 +117,84 @@ nav ul li:hover {
 	background-color: #B2DBD7; 
 }
 
-nav ul li.action-item {
-	color: white;
-	background-color: #212121; 
-}
-
-nav ul li.action-item:hover {
-	color: white;
-	background-color: black; 
-}
-
 nav ul li p {
 	height: 1.5rem;
 	line-height: 1.5rem;
 	margin: 0;
 	padding: 0.75rem 1.5rem; 
+}
+
+/* Column Classes
+------------------------------------------------------------ */
+ 
+.five-sixths,
+.four-fifths,
+.four-sixths,
+.one-fifth,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fifths,
+.three-fourths,
+.three-sixths,
+.two-fifths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+    float: left;
+    margin: 0 0 20px 3%;
+}
+ 
+.one-half,
+.three-sixths,
+.two-fourths {
+    width: 48%;
+}
+ 
+.one-third,
+.two-sixths {
+    width: 31%;
+}
+ 
+.four-sixths,
+.two-thirds {
+    width: 65%;
+}
+ 
+.one-fourth {
+    width: 22.5%;
+}
+ 
+.three-fourths {
+    width: 73.5%;
+}
+ 
+.one-fifth {
+    width: 17.4%;
+}
+ 
+.two-fifths {
+    width: 37.8%;
+}
+ 
+.three-fifths {
+    width: 58.2%;
+}
+ 
+.four-fifths {
+    width: 78.6%;
+}
+ 
+.one-sixth {
+    width: 14%;
+}
+ 
+.five-sixths {
+    width: 82%;
+}
+ 
+.first {
+    clear: both;
+    margin-left: 0;
 }
