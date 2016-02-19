@@ -18,6 +18,10 @@ nav.pinned {
     height: 3rem;
 }
 
+.nav-bar {
+    text-align: center;
+}
+
 .hero {
     height: 100%;
     background-color: #DDE5A8;
