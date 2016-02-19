@@ -184,6 +184,15 @@ nav.pinned {
     text-align: center;
 }
 
+#projects p {
+    padding-bottom: 20px;
+}
+
+#projects img {
+    width: 450px;
+    height: auto;
+}
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
