@@ -231,6 +231,10 @@ nav.pinned {
         padding-top: 15rem;
     }
     
+    .arrow {
+        padding: 1rem;
+    }
+    
     .links li {
         font-size: 20px;
         padding: 0 5px;
