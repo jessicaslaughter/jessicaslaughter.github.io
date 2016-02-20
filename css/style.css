@@ -81,7 +81,7 @@ nav.pinned {
     text-align: center;
     color: white;
     font-size: 30px;
-    padding-bottom: 2px;
+    padding: 4rem;
     z-index: 2;
 }
 
@@ -116,7 +116,7 @@ nav.pinned {
 }
 
 .left-column {
-    margin-right: 10%;
+    margin-right: 11%;
 }
 
 .skill li {
@@ -193,6 +193,14 @@ nav.pinned {
     height: auto;
 }
 
+/* Experience
+------------------------------------------------------------ */
+
+#experience {
+    text-align: center;
+    background: #F2FACB;
+}
+
 /* Effects
 ------------------------------------------------------------ */
 
@@ -225,6 +233,7 @@ nav.pinned {
     
     .links li {
         font-size: 20px;
+        padding: 0 5px;
     }
     
     .links ul {
