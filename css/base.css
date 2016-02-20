@@ -64,7 +64,7 @@ p {
 .content {
 	max-width: 60rem;
 	margin: 0 auto;
-	width: 60%; 
+	width: 50%; 
 }
 
 .hero {
@@ -77,7 +77,6 @@ section {
 }
 
 footer {
-	margin-top: 4rem;
 	padding: 3rem;
 	background-color: #222222;
 	color: white;
