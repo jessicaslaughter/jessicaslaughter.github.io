@@ -223,8 +223,12 @@ nav.pinned {
         padding-top: 15rem;
     }
     
-    .links .li {
+    .links li {
         font-size: 20px;
+    }
+    
+    .links ul {
+        padding: 1rem 0;
     }
     
     #projects img {
@@ -236,7 +240,7 @@ nav.pinned {
     }
     
     .skill li h4 {
-        top: -40px;
+        top: -35px;
     }
     
     .skill li {
