@@ -81,7 +81,7 @@ nav.pinned {
     text-align: center;
     color: white;
     font-size: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     z-index: 2;
 }
 
@@ -220,7 +220,11 @@ nav.pinned {
     
     .hero h1 {
         font-size: 30px;
-        padding-top: 5rem;
+        padding-top: 15rem;
+    }
+    
+    .links .li {
+        font-size: 20px;
     }
     
     #projects img {
