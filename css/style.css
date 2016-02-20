@@ -81,7 +81,7 @@ nav.pinned {
     text-align: center;
     color: white;
     font-size: 30px;
-    padding: 4rem;
+    padding-bottom: 10px;
     z-index: 2;
 }
 
@@ -218,6 +218,11 @@ nav.pinned {
 
 @media only screen and (max-width: 800px) {
     
+    .hero h1 {
+        font-size: 30px;
+        padding-top: 5rem;
+    }
+    
     #projects img {
         width: 100%;
     }
@@ -240,11 +245,6 @@ nav.pinned {
     
     .bar {
         height: 40px;
-    }
-    
-    .circle {
-        width: 100px;
-        height: 100px;
     }
     
     .left-column {
