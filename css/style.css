@@ -189,9 +189,12 @@ nav.pinned {
 }
 
 #projects img {
-    width: 450px;
+    width: 80%;
     height: auto;
 }
+
+/* Effects
+------------------------------------------------------------ */
 
 .hvr-grow {
     display: inline-block;
@@ -208,4 +211,24 @@ nav.pinned {
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.2);
+}
+
+/* Mobile
+------------------------------------------------------------ */
+
+@media only screen and (max-width: 800px) {
+    
+    #projects img {
+        width: 100%;
+    }
+    
+    .content {
+        width: 90%;
+    }
+    
+    .hero h1 {
+        padding-top: 50px;
+    }
+    
+    
 }
