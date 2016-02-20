@@ -227,7 +227,23 @@ nav.pinned {
     }
     
     .hero h1 {
-        font-size: 3rem;
+        padding-top: 40rem;
     }
     
+    .circle {
+        width: 500px;
+        height: 500px;
+    }
+    
+    .body {
+        font-size: 18px;
+    }
+    
+    .skill {
+        width: 100%;
+    }
+    
+    .left-column {
+        margin: 0;
+    }
 }
