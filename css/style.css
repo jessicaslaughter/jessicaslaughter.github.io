@@ -228,27 +228,10 @@ nav.pinned {
     
     .hero h1 {
         padding-top: 50rem;
-        font-size: 70px;
     }
     
-    .hero h6 {
-        font-size: 30px;
-    }
-    
-    .links .fa {
-        font-size: 30px;
-    }
-    
-    .body {
-        font-size: 18px;
-    }
-    
-    h2 {
-        font-size: 40px;
-    }
-    
-    .skill h4 {
-        font-size: 24px;
+    .skill li h4 {
+        top: -40px;
     }
     
     .skill li {
@@ -270,9 +253,5 @@ nav.pinned {
     
     .left-column {
         margin: 0;
-    }
-    
-    h3 {
-        font-size: 30px;
     }
 }
