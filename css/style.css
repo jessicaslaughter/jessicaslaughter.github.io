@@ -216,7 +216,7 @@ nav.pinned {
 /* Mobile
 ------------------------------------------------------------ */
 
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-width: 800px) {
     
     #projects img {
         width: 100%;
@@ -224,10 +224,6 @@ nav.pinned {
     
     .content {
         width: 90%;
-    }
-    
-    .hero h1 {
-        padding-top: 50rem;
     }
     
     .skill li h4 {
@@ -247,8 +243,8 @@ nav.pinned {
     }
     
     .circle {
-        width: 500px;
-        height: 500px;
+        width: 100px;
+        height: 100px;
     }
     
     .left-column {
