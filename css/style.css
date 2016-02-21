@@ -272,4 +272,8 @@ nav.pinned {
     .left-column {
         margin: 0;
     }
+    
+    .navbar {
+        display: none;
+    }
 }
