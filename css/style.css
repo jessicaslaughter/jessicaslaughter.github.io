@@ -273,7 +273,7 @@ nav.pinned {
         margin: 0;
     }
     
-    .navbar {
+    .navbar-wrapper {
         display: none;
     }
 }
