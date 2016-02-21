@@ -205,7 +205,7 @@ nav.pinned {
 /* Effects
 ------------------------------------------------------------ */
 
-.hvr-grow {
+.grow {
     display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
@@ -216,10 +216,10 @@ nav.pinned {
     transition-property: transform;
 }
 
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.2);
+.grow:hover,
+.grow:focus,
+.grow:active {
+    transform: scale(1.5);
 }
 
 /* Mobile
