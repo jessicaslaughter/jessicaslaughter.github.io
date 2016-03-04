@@ -96,6 +96,10 @@ nav.pinned {
 #about-me {
     text-align: center;
 }
+
+#about-me a {
+    color: #F4ACB7;
+}
 /* Skills
 ------------------------------------------------------------ */
 #skills {
