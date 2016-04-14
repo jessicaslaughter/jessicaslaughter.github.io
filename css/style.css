@@ -100,93 +100,13 @@ nav.pinned {
 #about-me a {
     color: #F4ACB7;
 }
-/* Skills
------------------------------------------------------------- */
-#skills {
-    background: #F2FACB;
-}
-
-.skill {
-    list-style: none;
-    width: 44%;
-    margin: 15px auto 0;
-    padding: 30px 0;
-    position: relative;
-    line-height: 20px;
-    display: inline-table;
-}
-
-.skill h2 {
-    text-align: center;
-}
-
-.left-column {
-    margin-right: 11%;
-}
-
-.skill li {
-    margin-bottom: 50px;
-    background: #FFFFFF;
-    height: 20px;
-    padding: 0;
-}
-
-.bar {
-    height: 20px;
-    position: absolute;
-}
-
-.skill li h4 {
-    position: relative;
-    top: -30px;
-    text-align: left;
-}
-
-.c {
-    width: 70%;
-    background-color: #F4ACB7;
-}
-
-.html-css {
-    width: 90%;
-    background-color: #B2DBD7;
-}
-
-.javascript {
-    width: 10%;
-    background-color: #F4ACB7;
-}
-
-.java {
-    width: 10%;
-    background-color: #B2DBD7;
-}
-
-.photoshop {
-    width: 20%;
-    background-color: #B2DBD7;
-}
-
-.illustrator {
-    width: 60%;
-    background-color: #F4ACB7;
-}
-
-.web-design {
-    width: 50%;
-    background-color: #B2DBD7;
-}
-
-.wordpress {
-    width: 50%;
-    background-color: #F4ACB7;
-}
 
 /* Projects
 ------------------------------------------------------------ */
 
 #projects {
     text-align: center;
+    background: #F2FACB;
 }
 
 #projects p {
@@ -203,7 +123,7 @@ nav.pinned {
 
 #experience {
     text-align: center;
-    background: #F2FACB;
+    background: #ffffff;
 }
 
 /* Effects
@@ -255,26 +175,6 @@ nav.pinned {
     
     .content {
         width: 90%;
-    }
-    
-    .skill li h4 {
-        top: -35px;
-    }
-    
-    .skill li {
-        height: 40px;
-    }
-    
-    .skill {
-        width: 100%;
-    }
-    
-    .bar {
-        height: 40px;
-    }
-    
-    .left-column {
-        margin: 0;
     }
     
     .navbar-wrapper {
