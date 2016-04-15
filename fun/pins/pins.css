@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url(gradient.jpg);
+    background-position: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#header {
+    width: 50%;
+    height: auto;
+}
