@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $('.fancy-title').lettering();
+});
+
 $(function() {
 
     $(window).scroll(function() {
