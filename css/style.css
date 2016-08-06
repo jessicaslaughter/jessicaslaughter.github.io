@@ -10,7 +10,7 @@ nav {
 nav.pinned {
     position: fixed;
     top: 0;
-    background-color: #B2DBD7;
+    background-color: #e0ccc7;
     transition: 0.3s ease background-color;
     -webkit-transition: 0.2s ease background-color;
 }
@@ -28,7 +28,7 @@ nav.pinned {
 
 .hero {
     height: 100%;
-    background-color: #B2DBD7;
+    background-color: #e0ccc7;
     cursor: default;
 }
 
@@ -98,7 +98,7 @@ nav.pinned {
 }
 
 #about-me a {
-    color: #F4ACB7;
+    color: #222222;
 }
 
 /* Projects
@@ -106,7 +106,7 @@ nav.pinned {
 
 #projects {
     text-align: center;
-    background: #F2FACB;
+    background: #e0d5d1;
 }
 
 #projects p {
