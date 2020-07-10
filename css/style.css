@@ -1,212 +1,109 @@
-body, html {
-    height: 100%;
+@import url('https://rsms.me/inter/inter-ui.css');
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-nav {
-    position: relative;
-    z-index: 1;
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Helvetica, sans-serif;
 }
 
-nav.pinned {
-    position: fixed;
-    top: 0;
-    background-color: #e0ccc7;
-    transition: 0.3s ease background-color;
-    -webkit-transition: 0.2s ease background-color;
+h1 {
+  font-weight: 400;
+  margin: 0 0 5px 0;
 }
 
-.navbar-wrapper {
-    height: 3rem;
+h2 {
+  color: #96979c;
+  font-weight: 300;
+  margin: 0;
 }
 
-.navbar {
-    text-align: center;
+a {
+  color: #000;
 }
 
-/* Header
------------------------------------------------------------- */
-
-.hero {
-    height: 100%;
-    background-color: #e0ccc7;
-    cursor: default;
+a:hover {
+  color: #E58BC6;
 }
 
-.hero h1 {
-    position: relative;
-    text-align: center;
-    color: white;
-    padding-top: 21rem;
-    z-index: 2;
+.split-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
 }
 
-.hero h6 {
-    position: relative;
-    text-align: center;
-    color: white;
-    z-index: 2;
+.split {
+  height: 100vh;
+  width: 50%;
 }
 
-.circle {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    background-image: url(/img/jessica-slaughter-square.jpg);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: contain;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    transform: translate(-50%, -50%);
+.left {
+  background-image: url(../img/jess.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.right {
+  background-color: #e3f0bb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.centered {
+  padding: 50px;
+  max-width: 600px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (max-width: 800px) {
+  .split-page {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .left  {
+    height: 80vh;
+    width: 100%;
+  }
+
+  .right {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.header {
+
+}
+
+.header h1 {
+  margin-bottom: 60px;
+
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+
+.intro {
+  font-family: 'Lora', serif;
+  font-size: 20px;
 }
 
 .links {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    margin-left: -40px;
-    z-index: 2;
+  margin: 25px 0;
+
+  line-height: 1.5;
 }
 
-.links li {
-    display: inline;
-    color: white;
-    padding: 0px 10px;
-    font-size: 30px;
-}
-
-.arrow {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    padding: 3rem;
-    z-index: 2;
-}
-
-.content a, b {
-    font-weight: bold;
-}
-
-/* About
------------------------------------------------------------- */
-
-#about-me {
-    text-align: center;
-}
-
-#about-me a {
-    color: #222222;
-}
-
-/* Projects
------------------------------------------------------------- */
-
-#projects {
-    text-align: center;
-    background: #e0d5d1;
-}
-
-#projects p {
-    padding-bottom: 20px;
-}
-
-#projects img {
-    width: 80%;
-    height: auto;
-    margin: 15px auto;
-}
-
-/* Experience
------------------------------------------------------------- */
-
-#experience {
-    text-align: center;
-    background: #ffffff;
-}
-
-#experience img {
-    width: 80%;
-    height: auto;
-    margin: 15px auto;
-}
-
-/* Effects
------------------------------------------------------------- */
-
-.grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-
-.grow:hover,
-.grow:focus,
-.grow:active {
-    transform: scale(1.5);
-}
-
-/* Responsive
------------------------------------------------------------- */
-
-@media only screen and (max-width: 800px) {
-    
-    .hero h1 {
-        font-size: 30px;
-        padding-top: 20rem;
-    }
-    
-    .arrow {
-        padding: 1rem;
-    }
-    
-    .links li {
-        font-size: 20px;
-        padding: 0 5px;
-    }
-    
-    .links ul {
-        margin: 1rem 0;
-    }
-    
-    #projects img {
-        width: 100%;
-    }
-    
-    .content {
-        width: 90%;
-    }
-    
-    .navbar-wrapper {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    
-    .hero h1 {
-        font-size: 30px;
-        padding-top: 17rem;
-    }
-}
-
-@media only screen and (min-width: 1400px) {
-    
-    .hero h1 {
-        padding-top: 24rem;
-    }
-}
-
-@media only screen and (min-width: 1600px) {
-    
-    .hero h1 {
-        padding-top: 28rem;
-    }
+.links a {
+  display: block;
+  line-height: 1.5;
 }
